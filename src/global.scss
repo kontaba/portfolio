@@ -1,0 +1,13 @@
+$mainColor: #15023A;
+$color2: hsl(342, 87%, 58%);
+$color3: hsl(342, 87%, 48%);
+
+$width: 768px;
+
+@mixin mobile {
+    @media(max-width: #{$width}){
+        @content
+    }
+}
+
+
